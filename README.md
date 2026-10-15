@@ -52,5 +52,4 @@ antaraparab/
 
 ## 👩‍💻 Author
 
-**Antara Parab**  
-*Department of Computer Engineering, VPM's Polytechnic, Thane*
+**Antara Parab**
