@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bae6fd" />
+      <stop offset="100%" stop-color="#f0f9ff" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#skyGrad)" rx="10" />
+  <rect x="0" y="210" width="400" height="30" fill="#22c55e" />
+  <!-- Main Building -->
+  <rect x="70" y="70" width="260" height="140" fill="#e2e8f0" stroke="#64748b" stroke-width="2" rx="4" />
+  <rect x="140" y="40" width="120" height="40" fill="#cbd5e1" stroke="#64748b" stroke-width="2" rx="2" />
+  <!-- Windows -->
+  <g fill="#38bdf8">
+    <rect x="90" y="90" width="30" height="25" rx="2" />
+    <rect x="135" y="90" width="30" height="25" rx="2" />
+    <rect x="235" y="90" width="30" height="25" rx="2" />
+    <rect x="280" y="90" width="30" height="25" rx="2" />
+    <rect x="90" y="130" width="30" height="25" rx="2" />
+    <rect x="135" y="130" width="30" height="25" rx="2" />
+    <rect x="235" y="130" width="30" height="25" rx="2" />
+    <rect x="280" y="130" width="30" height="25" rx="2" />
+    <rect x="90" y="170" width="30" height="25" rx="2" />
+    <rect x="280" y="170" width="30" height="25" rx="2" />
+  </g>
+  <!-- Entrance -->
+  <rect x="180" y="160" width="40" height="50" fill="#475569" rx="2" />
+  <text x="200" y="65" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">CAMPUS BUILDING 1</text>
+</svg>

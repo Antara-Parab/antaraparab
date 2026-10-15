@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vidya Prasarak Mandal's Polytechnic, Thane - Portal</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8fafc;
+      color: #1e293b;
+      line-height: 1.6;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #ffffff;
+      padding: 24px 16px;
+      text-align: center;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    .header img {
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 12px;
+    }
+
+    .header h1 {
+      font-size: 1.8rem;
+      letter-spacing: 0.5px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    [class*="col-"] {
+      float: left;
+      padding: 12px;
+      width: 100%;
+    }
+
+    /* Navigation Menu */
+    .menu ul {
+      list-style-type: none;
+    }
+
+    .menu li {
+      padding: 12px 16px;
+      margin-bottom: 10px;
+      background-color: #ffffff;
+      color: #0369a1;
+      font-weight: 600;
+      border-radius: 8px;
+      border-left: 4px solid #0284c7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      transition: all 0.2s ease;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .menu li:hover {
+      background-color: #0284c7;
+      color: #ffffff;
+      transform: translateX(4px);
+    }
+
+    /* Main Content */
+    .main-card {
+      background: #ffffff;
+      padding: 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      text-align: center;
+    }
+
+    .main-card h2 {
+      color: #0369a1;
+      margin-bottom: 16px;
+      font-size: 1.5rem;
+    }
+
+    .info-box {
+      background-color: #f0f9ff;
+      border: 1px solid #bae6fd;
+      border-radius: 6px;
+      padding: 16px;
+      font-family: inherit;
+      color: #0f172a;
+      white-space: pre-line;
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+
+    /* Sidebar / Aside */
+    .aside-card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      border-top: 4px solid #10b981;
+    }
+
+    .aside-card h3 {
+      color: #065f46;
+      margin-bottom: 12px;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    .aside-card ul {
+      list-style: none;
+    }
+
+    .aside-card li {
+      padding: 6px 0;
+      color: #334155;
+      border-bottom: 1px dashed #e2e8f0;
+      font-size: 0.9rem;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #1e293b;
+      color: #f8fafc;
+      text-align: center;
+      padding: 30px 16px;
+      margin-top: 30px;
+    }
+
+    .footer h3 {
+      margin-bottom: 12px;
+      font-size: 1.2rem;
+      color: #38bdf8;
+    }
+
+    .footer img {
+      max-width: 320px;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    /* Responsive Grid Breakpoints */
+    /* Tablets (min-width: 600px) */
+    @media only screen and (min-width: 600px) {
+      .col-s-1 { width: 8.33%; }
+      .col-s-2 { width: 16.66%; }
+      .col-s-3 { width: 25%; }
+      .col-s-4 { width: 33.33%; }
+      .col-s-5 { width: 41.66%; }
+      .col-s-6 { width: 50%; }
+      .col-s-7 { width: 58.33%; }
+      .col-s-8 { width: 66.66%; }
+      .col-s-9 { width: 75%; }
+      .col-s-10 { width: 83.33%; }
+      .col-s-11 { width: 91.66%; }
+      .col-s-12 { width: 100%; }
+    }
+
+    /* Desktop (min-width: 768px) */
+    @media only screen and (min-width: 768px) {
+      .col-1 { width: 8.33%; }
+      .col-2 { width: 16.66%; }
+      .col-3 { width: 25%; }
+      .col-4 { width: 33.33%; }
+      .col-5 { width: 41.66%; }
+      .col-6 { width: 50%; }
+      .col-7 { width: 58.33%; }
+      .col-8 { width: 66.66%; }
+      .col-9 { width: 75%; }
+      .col-10 { width: 83.33%; }
+      .col-11 { width: 91.66%; }
+      .col-12 { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <img src="assets/logo.svg" alt="VPM's Polytechnic Logo" />
+    <h1>Vidya Prasarak Mandal's Polytechnic, Thane</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <!-- Navigation -->
+      <nav class="col-3 col-s-12 menu">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Campus</li>
+          <li>Admission</li>
+        </ul>
+      </nav>
+
+      <!-- Main Overview -->
+      <main class="col-6 col-s-8">
+        <div class="main-card">
+          <h2>Institutional Profile</h2>
+          <div class="info-box">
+            <strong>Approved:</strong> All India Council for Technical Education (AICTE), New Delhi<br>
+            <strong>Affiliated:</strong> Directorate of Technical Education (DTE), Maharashtra Mumbai<br>
+            <strong>Board:</strong> Maharashtra State Board of Technical Education (MSBTE), Mumbai<br>
+            <strong>Institute Code:</strong> 3257
+          </div>
+        </div>
+      </main>
+
+      <!-- Department Sidebar -->
+      <aside class="col-3 col-s-4">
+        <div class="aside-card">
+          <h3>Departments</h3>
+          <ul>
+            <li>⚡ Electrical Power System</li>
+            <li>📻 Industrial Electronics</li>
+            <li>🔬 Instrumentation</li>
+            <li>💻 Information Technology</li>
+            <li>🖥️ Computer Engineering</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <h3>Campus Building 1</h3>
+    <img src="assets/building.svg" alt="Campus Building Illustration" />
+    <p style="margin-top: 15px; font-size: 0.85rem; color: #94a3b8;">
+      Designed by Antara Parab • Responsive Web Design Practical
+    </p>
+  </footer>
+
+</body>
+</html>
